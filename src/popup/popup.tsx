@@ -21,7 +21,7 @@ const Test = function () {
   >('browser')
   const isScreen = recordOption === 'monitor'
   const [isAudioEnabled, setIsAudioEnabled] = useState(true)
-  const [isVideoEnabled, setIsVideoEnabled] = useState(true)
+  const [isVideoEnabled, setIsVideoEnabled] = useState(true);
 
   return (
     <div className="min-w-[350px] p-4 font-work">
